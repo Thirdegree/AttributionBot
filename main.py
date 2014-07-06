@@ -29,7 +29,7 @@ def main():
         post.mark_as_read()
 
 
-    subr = r.get_subreddit("thirdegree")
+    subr = r.get_subreddit("murica")
     for submission in subr.get_new():
         if submission.id not in done:
             done.append(submission.id)
