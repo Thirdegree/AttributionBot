@@ -1,0 +1,4 @@
+Gives attributation to origional authors of pictures bassed on difference hashing of an image, within a variable hamming distance. 
+
+Usage: 
+python main.py [distance]
