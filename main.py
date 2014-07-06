@@ -4,7 +4,7 @@ from PIL import Image
 from sys import argv
 from collections import deque
 
-r = praw.Reddit("AtributationBot by /u/thirdegree")
+r = praw.Reddit("AttributionBot by /u/thirdegree")
 
 done = deque(maxlen=200)
 
@@ -129,7 +129,7 @@ def dhash(image, hash_size=8):
  
     return ''.join(hex_string)
 
-
+# http://en.wikipedia.org/wiki/Hamming_distance#Algorithm_example
 def hamming_distance(s1, s2):
     #Return the Hamming distance between equal-length sequences
     if len(s1) != len(s2):
